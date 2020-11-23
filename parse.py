@@ -29,3 +29,5 @@ def main():
 if __name__ == '__main__':
     hat = ["дата", "событие"]
     print(tabulate(main(), headers=hat, tablefmt='pipe'))
+
+# docker run -ti --rm optk2k/parse
